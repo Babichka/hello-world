@@ -6,7 +6,7 @@ public class Application {
     }
  
     public void run() {
-        calculator.setAmount(500000);
+        calculator.setAmount(100000);
         calculator.setYears(3);
         calculator.calculate();
         System.out.println("Месячный платеж: " + calculator.getMonthlyPayment());
